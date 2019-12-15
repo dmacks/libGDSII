@@ -5,3 +5,4 @@ libGDSII_la_SOURCES = 		\
  libGDSII.cc			\
  Flatten.cc 			\
  ReadGDSIIFile.cc
+libGDSII_la_LDFLAGS = -version-info @SHARED_VERSION_INFO@
