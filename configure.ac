@@ -48,7 +48,7 @@ AC_CHECK_FUNCS([isnan isinf erf erfc copysign])
 ##################################################
 AC_CONFIG_FILES([
  Makefile
- libGDSII-pkgconfig
+ libGDSII.pc
  lib/Makefile
  applications/Makefile
  examples/Makefile
